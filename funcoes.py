@@ -13,11 +13,11 @@ def adicionar():
 	# telefone = input("Digite o telefone:")
 	# print("Contato salvo com nome:",nome," e numero",telefone)
 	# agenda.write(nome)
-	# agenda.write(",")
-	# agenda.write(telefone)
-	# agenda.write(",")
-	# agenda.write("\n")
-	# agenda.close()
+	agenda.write(",")
+	agenda.write(telefone)
+	agenda.write(",")
+	agenda.write("\n")
+	agenda.close()
 	
 def listar():
 	print("Lista de Contatos")
