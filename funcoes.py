@@ -5,7 +5,6 @@ def bemvindo():
 	print("1  Adicionar um novo contato")
 	print("2  Listar os contatos da agenda")
 
-
 def adicionar():
 	print("Adicionar um registro")
 	agenda = open("agendatelefonica.csv",'a')
